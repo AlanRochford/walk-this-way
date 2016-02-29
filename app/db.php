@@ -1,9 +1,9 @@
 <?php
 function getDB() {
 $dbhost="fyp-walkthiswau.cloudapp.net";
-$dbuser="root";
+$dbuser="AlanRochford";
 $dbpass="Rochie12";
-$dbname="events";
+$dbname="firstspatial";
 
 
 $dbConnection = pg_connect("host=$dbhost dbname=$dbname user=$dbuser password=$dbpass")
